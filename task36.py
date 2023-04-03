@@ -23,3 +23,5 @@ def print_operation_table(operation, num_rows=6, num_columns=6):
             num = operation(x, y)
             nums.append(num)
         print('\t\t'.join([str(x) for x in nums]))
+
+print_operation_table(lambda x, y: x * y) 
